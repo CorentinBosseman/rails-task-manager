@@ -1,0 +1,9 @@
+<h2><%= @task.title %></h2>
+
+<p><%= @task.details %> - (<%= @task.completed %>/5)</p>
+<%= link_to 'Edit Task', edit_task_path %>
+
+
+
+<!-- <a href="/restaurants">Back to list</a> -->
+<%= link_to 'Back to list', index_path %>
